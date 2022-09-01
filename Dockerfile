@@ -1,4 +1,4 @@
-from python:3.10-alpine-3.16
+from python:3.10-alpine3.16
 
 COPY requirements.txt /tmp/
 COPY main.py /app
