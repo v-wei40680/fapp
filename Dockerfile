@@ -1,4 +1,4 @@
-from python:3.10-alpine3.16
+FROM python:3.10-alpine3.16
 
 COPY requirements.txt /tmp/
 COPY main.py /app
@@ -11,4 +11,4 @@ WORKDIR /app/
 
 ENV PYTHONPATH=/app
 
-CMD ['python', 'main.py']
+CMD ["python", "main.py"]
